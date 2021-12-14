@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:rgb(76, 204, 247);
+}
+body h1{
+    text-align:center;
+    border:2px black solid;
+    color:darkgoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* -webkit-text-stroke-width:2px;
+    -webkit-text-str */
+}
+body p{
+   font-size:medium;
+   font-weight: bold;
+   font-style:italic; 
+   text-align: center;
+  
+}
+.grid{
+   display:block;
+   text-align:center;
+  
+}
+.grid h2{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#temp{
+    width:200px;
+}
+div{
+    margin-top:15px;
+    margin-left:20px;
+  
+}
+button{
+    width:70px;
+    border-radius:5px;
+}
+button:hover{
+    background:green;
+    Font-size:15px;
+    color:#fff;
+}
